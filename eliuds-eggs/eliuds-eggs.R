@@ -1,0 +1,1 @@
+egg_count <- function(n) {(n==0&&return(0))||return((c(n,n%%(2**((log(n,2)|>floor()):0)))|>diff()<0)|>sum())}

@@ -1,0 +1,1 @@
+sum_of_multiples <- \(fs, lt) {Map(function(x){seq.int(x,lt-1,x)} ,fs[fs<lt])|>unlist()|>unique()|>sum()}
